@@ -38,6 +38,14 @@ html {
     gap: 16px;
 }
 
+.fan {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 100px);
+    padding: 32px;
+    gap: 16px;
+}
+
 .item {
     display: flex;
     align-items: center;
@@ -75,10 +83,11 @@ html {
 }
 
 .leds {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 100px);
+    padding: 32px;
     gap: 16px;
-    padding: 16px;
 }
 
 .led {
